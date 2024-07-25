@@ -4,7 +4,7 @@ import { ComputeBudgetInstruction, ComputeBudgetProgram, Connection, PublicKey, 
 export const GET = (req: Request) => {
 
     const payload: ActionGetResponse = {
-        icon: new URL("/verc el.svg", new URL(req.url).origin).toString(),
+        icon: new URL("/vercel.svg", new URL(req.url).origin).toString(),
         label: "Send Memo",
         description: "This is a Super Simple Action",
         title: "Memo Demo"
