@@ -7,7 +7,7 @@ export const GET = async (req: Request) => {
     const payload: ActionGetResponse = {
         icon: new URL("/dev-banner.jpeg", new URL(req.url).origin).toString(),
         label: "Buy me a coffee",
-        description: "Buyb me a coffeee with SOL using this super sweet blink of mine :)",
+        description: "Buy me a coffeee with SOL using this super sweet blink of mine :)",
         title: "Dev Royale - Buy Me a Coffee",
         links: {
             actions: [
